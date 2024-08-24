@@ -1,0 +1,223 @@
+.landing-page .content-container {
+    margin-top: 20px;
+    display: flex;
+}
+
+.landing-page .content-container .products-section {
+    flex: 9;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.landing-page .content-container .products-section .image-container {
+    position: relative;
+    width: 225px;
+}
+
+.landing-page .content-container .products-section .image-container img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.landing-page .content-container .products-section .image-container .add-to-cart-button {
+    position: absolute;
+    left: 20%;
+    bottom: -12px;
+    right: 20%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #b42e2e;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.landing-page .content-container .products-section .image-container button img {
+    width: 20px;
+}
+
+.landing-page .content-container .products-section .image-container button.in-cart {
+    background-color: #b42e2e;
+    color: #111;
+    border: 1px solid #b42e2e;
+
+}
+
+.plus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.details .product-title {
+    color: gray;
+}
+
+.details .product-description {
+    font-weight: 600;
+}
+
+.details .product-price {
+    color: #b42e2e;
+    font-weight: 600;
+}
+
+.landing-page .content-container .cart-section {
+    flex: 3;
+}
+
+.cart-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 20px;
+}
+
+.item-details .item-title {
+    font-weight: 600;
+}
+
+.item-details .price-details {
+    display: flex;
+    gap: 12px;
+}
+
+.item-details .price-details .quantity {
+    color: #b42e2e;
+}
+
+.item-details .price-details .price {
+    color: gray;
+}
+
+.item-details .price-details .total-price {
+    color: gray;
+    font-weight: 600;
+}
+
+.remove-button {
+    padding: 5px;
+    border: 0;
+    background: none;
+    color: #b42e2e;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.order-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-size: 20px;
+}
+
+.order-summary .total-price {
+    margin-top: 50px;
+    font-size: 18px;
+    color: grey;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-summary .total-price span {
+    color: #111;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.order-summary .carbon-neutral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.confirm-order-button {
+    background-color: #b42e2e;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.product-card .quantity-controls {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: #fff;
+
+}
+
+.product-card .quantity-controls button {
+    background-color: #b42e2e;
+    color: #fff;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.product-card .quantity-controls .decrease-button {
+    position: absolute;
+    right: 45px;
+
+}
+
+.product-card .quantity-controls .increase-button {
+    position: absolute;
+    left: 45px;
+}
+
+.product-card .quantity-controls .quantity {
+    font-size: 18px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.product-card .add-to-cart-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.product-card .add-to-cart-button.in-cart {
+    background-color: #b42e2e;
+    color: #fff;
+
+}
